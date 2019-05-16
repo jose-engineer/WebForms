@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <input type="button" value="ABRIR" onclick="abrirPop()" />
+    <br />
+    <br /><br /><br />
+    <input type="button" value="cerrr pop up" onclick="cerrarPop()" />
+
+</body>
+</html>
+
+<script type="text/javascript">
+
+
+    var referencia;
+
+    function abrirPop() {
+        referencia = window.open('https://www.silanes.com.mx/', 'nombre', 'height=200, width=200');
+        }
+
+    function cerrarPop() {
+        referencia.close();
+        }
+
+</script>
